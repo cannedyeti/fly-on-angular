@@ -1,0 +1,12 @@
+
+<div class="text-center">
+    <br>
+    <h2>{{ plane.model }}</h2>
+    <h3>Type: {{ plane.manufacturer }}</h3>
+    <h4>Designation Number: {{ plane.engines}}</h4>
+    <img ng-src="{{plane.img}}">
+    <br>
+    <br>
+    <a href="/" class="btn btn-danger btn-sm" ng-click="delete()">Delete</a>
+    <a ng-href="/edit/{{ plane._id }}" class="btn btn-info btn-sm">Edit</a>
+</div>

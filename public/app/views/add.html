@@ -1,0 +1,16 @@
+<a class="btn btn-primary btn-sm" href="/">Home</a>
+<form ng-submit="addPlane()">
+    <label>Type:</label>
+    <input name="manufacturer" class="form-control" ng-model="plane.manufacturer" type="text">
+    <br>
+    <label>Name:</label>
+    <input name="model" class="form-control" ng-model="plane.model" type="text">
+    <br>
+    <label>Designation Number:</label>
+      <input type="text" class="form-control" ng-model="plane.engines" placeholder="Designation Number">
+    <br>
+    <label>Image:</label>
+    <input name="image" class="form-control" ng-model="plane.img" type="text">
+    <br>
+    <input class="btn btn-success" type="submit">
+</form>
